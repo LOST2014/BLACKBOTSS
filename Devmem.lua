@@ -7752,8 +7752,8 @@ if text == ("تحديث السورس") and DevDevmem(msg) then
 send(msg.chat_id_,msg.id_,'⌔︙تم التحديث')
 os.execute('rm -rf Devmem.lua')
 os.execute('rm -rf start.lua')
-os.execute('wget https://raw.githubusercontent.com/Devmem/Devmem/master/Devmem.lua')
-os.execute('wget https://raw.githubusercontent.com/Devmem/Devmem/master/start.lua')
+os.execute('wget https://raw.githubusercontent.com/LOST2014/Devmem/master/Devmem.lua')
+os.execute('wget https://raw.githubusercontent.com/LOST2014/Devmem/master/start.lua')
 dofile('Devmem.lua')  
 return false
 end
@@ -9227,8 +9227,8 @@ if text == "تحديث السورس ⌔" then
 send(msg.chat_id_,msg.id_,'⌔︙تم التحديث')
 os.execute('rm -rf Devmem.lua')
 os.execute('rm -rf start.lua')
-os.execute('wget https://raw.githubusercontent.com/Devmem/Devmem/master/Devmem.lua')
-os.execute('wget https://raw.githubusercontent.com/Devmem/Devmem/master/start.lua')
+os.execute('wget https://raw.githubusercontent.com/LOST2014/Devmem/master/Devmem.lua')
+os.execute('wget https://raw.githubusercontent.com/LOST2014/Devmem/master/start.lua')
 dofile('Devmem.lua')  
 return false
 end
