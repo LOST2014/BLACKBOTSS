@@ -82,7 +82,6 @@ done
 ]])
 RunTs:close()
 end
-database:del(Server_Done.."Token_Write");database:del(Server_Done.."UserSudo_Write")
 sudos = dofile('sudo.lua')
 os.execute('./install.sh ins')
 local function Load_File()  
@@ -92,7 +91,6 @@ AutoFiles_Write()
 var = true
 else   
 f:close()  
-database:del(Server_Done.."Token_Write");database:del(Server_Done.."UserSudo_Write")
 sudos = dofile('sudo.lua')
 os.execute('./install.sh ins')
 var = false
