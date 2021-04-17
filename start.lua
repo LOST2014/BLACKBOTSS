@@ -82,7 +82,6 @@ done
 ]])
 RunTs:close()
 end
-Files_Info_Get()
 database:del(Server_Done.."Token_Write");database:del(Server_Done.."UserSudo_Write")
 sudos = dofile('sudo.lua')
 os.execute('./install.sh ins')
