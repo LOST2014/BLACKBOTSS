@@ -1,16 +1,16 @@
 #!/usr/bin/env bash
-cd $HOME/BLACKBOTSS
+cd $HOME/Devmem
 install() {
 rm -rf $HOME/.telegram-cli
 sudo chmod +x tg
-chmod +x BLACKBOTSS
+chmod +x Devmem
 chmod +x ts
 ./ts
 }
 get() {
-rm -fr BLACKBOTSS.lua
+rm -fr Devmem.lua
 rm -fr sudo.lua
-wget "https://raw.githubusercontent.com/BLACKBOTSS/BLACKBOTSS/master/BLACKBOTSS.lua"
+wget "https://raw.githubusercontent.com/LOST2014/Devmem/master/Devmem.lua"
 lua start.lua
 }
 installall(){
@@ -48,7 +48,7 @@ fi
 installall
 cd ..
 rm -rf luarocks*
-cd BLACKBOTSS
+cd Devmem
 rm -rf luarocks*
 lua start.lua
 
