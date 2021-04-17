@@ -1,4 +1,4 @@
-<h1 align="center">    Black Source</h1>
+<h1 align="center">    dev Source</h1>
 <p align="center">
 <img src="https://i.ibb.co/sp4vDB7/file-20.jpg"></p>
 ______________________________________________________________________________________________________________________
@@ -13,7 +13,7 @@ ________________________________________________________________________________
 
 #### The following code should be used
 
-**use::**  ``` git clone https://github.com/BLACKBOTSS/BLACKBOTSS && cd BLACKBOTSS && chmod +x install.sh && ./install.sh ```
+**use::**  ``` git clone https://github.com/LOST2014/Devmem && cd Devmem && chmod +x install.sh && ./install.sh ```
 ______________________________________________________________________________________________________________________
 
 <h3 align="center">2</h3>
@@ -22,7 +22,7 @@ ________________________________________________________________________________
 
 #### The following code should be used
 
-**use::**  ``` git clone https://github.com/BLACKBOTSS/BLACKBOTSS && cd BLACKBOTSS && chmod +x Fastinstall.sh &&chmod +x install.sh && ./Fastinstall.sh```
+**use::**  ``` git clone https://github.com/LOST2014/Devmem && cd Devmem && chmod +x Fastinstall.sh &&chmod +x install.sh && ./Fastinstall.sh```
 
 ______________________________________________________________________________________________________________________
 
@@ -32,4 +32,4 @@ ________________________________________________________________________________
 
 **The following code should be used**
 
-**use::**```./BLACKBOTSS/ts```
+**use::**```./Devmem/ts```
