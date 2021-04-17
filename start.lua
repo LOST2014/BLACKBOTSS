@@ -58,7 +58,6 @@ io.write('\n\27[1;31mThe Id was not Saved\n\27[0;39;49m')
 end  ---ifid
 os.execute('lua start.lua')
 end ---ifnot
-end
 local RunBot = io.open("Devmem", 'w')
 RunBot:write([[
 #!/usr/bin/env bash
