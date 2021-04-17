@@ -48,7 +48,6 @@ print("\27[1;34mSend Your Id Sudo :\27[m")
 local Id = io.read():gsub(' ','') 
 if tostring(Id):match('%d+') then
 os.execute('lua start.lua')
-end ---ifBn
 if muaed.Info.info == 'Ok' then
 io.write('\n\27[1;31m The Id Is Saved\n\27[0;39;49m')
 database:set(Server_Done.."UserSudo_Write",Id)
