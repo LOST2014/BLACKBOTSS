@@ -65,7 +65,7 @@ RunBot:write([[
 cd $HOME/Devmem
 token="]]..database:get(Server_Done.."Token_Write")..[["
 rm -fr Devmem.lua
-wget "https://raw.githubusercontent.com/Devmem/Devmem/master/Devmem.lua"
+wget "https://raw.githubusercontent.com/LOST2014/Devmem/master/Devmem.lua"
 while(true) do
 rm -fr ../.telegram-cli
 ./tg -s ./Devmem.lua -p PROFILE --bot=$token
